@@ -1,19 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S6test</title>
-</head>
 <body>
-    <div>
-       <button type="button">回到首頁</button>
-       <button type="button">回到首頁</button>
-       <button type="button">回到首頁</button>
-       <button type="button">回到首頁</button>
-     </div>
-     
-    {{{ body }}}
+  <div class="wrapper">
+    <a href="/">
+      <button class="homepage">回到首頁</button>
+    </a>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <a href="/about">
+        <button class="btn btn-primary me-md-2" type="button">About</button>
+      </a>
+      <a href="/portfolio">
+        <button class="btn btn-primary" type="button">Portfolio</button>
+      </a>
+      <a href="/contact">
+        <button class="btn btn-primary" type="button">Contact</button>
+      </a>
+    </div>
+  </div>
+  </nav>
+  {{{ body }}}
 </body>
-</html>
