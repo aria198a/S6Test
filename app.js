@@ -22,18 +22,6 @@ app.get('/', (req, res) => {
     res.render('index', { showPage: 'contact' })
   })
 
-app.get('/about', (req, res) => {
-    res.render('index')
-})
-
-app.get('/portfolio', (req, res) => {
-    res.render('index')
-})
-
-app.get('/contact', (req, res) => {
-    res.render('index')
-})
-
 app.listen(port, () => {
     console.log(`Express is listening on localhost: ${port}`)
 })
